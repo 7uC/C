@@ -1,0 +1,3 @@
+/home/l/Projects/42/base64/encoder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/l/Projects/42/base64/encoder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/l/Projects/42/base64/encoder/cmake-build-debug/CMakeFiles/encoder.dir

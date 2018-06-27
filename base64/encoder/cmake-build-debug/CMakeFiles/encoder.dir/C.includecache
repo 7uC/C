@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/l/Projects/42/base64/encoder/base64.c
+base64.h
+/home/l/Projects/42/base64/encoder/base64.h
+
+/home/l/Projects/42/base64/encoder/base64.h
+unistd.h
+-
+stdlib.h
+-
+
+/home/l/Projects/42/base64/encoder/chain_bits.c
+base64.h
+/home/l/Projects/42/base64/encoder/base64.h
+
+/home/l/Projects/42/base64/encoder/char_to_bits.c
+base64.h
+/home/l/Projects/42/base64/encoder/base64.h
+
+/home/l/Projects/42/base64/encoder/main.c
+base64.h
+/home/l/Projects/42/base64/encoder/base64.h
+
+/home/l/Projects/42/base64/encoder/power.c
+
+/home/l/Projects/42/base64/encoder/printbase64.c
+base64.h
+/home/l/Projects/42/base64/encoder/base64.h
+
+/home/l/Projects/42/base64/encoder/str_len.c
+
