@@ -1,4 +1,4 @@
-NAME = b64decoder
+NAME = b64encoder
 
 SRC =	src/main.c	\
 	src/base64.c	\
