@@ -1,24 +1,18 @@
-NAME = b64decoder
+NAME = base64decoder
 
-SRC =	src/main.c	\
-	src/base64.c	\
-	src/str_len.c	\
-	src/printbase64.c	\
-	src/chain_bits.c	\
-	src/char_to_bits.c	\
-	src/power.c			
+CC = gcc
 
-CFLAGS = -I ./lib/ -Wall -Werror -Wextra
+SRC =	src/*.c	
 
-OBJS = $(SRC:.c=.o)
+CFLAGS = -I ./lib/ -g -Wall -Werror -Wextra
 
 all: $(NAME)
 
-$(NAME):	$(OBJS)
-			gcc -o $(NAME) $(OBJS) $(CFLAGS)
+$(NAME):	$(SRC)
+			$(CC) $(CFLAGS) -o $(NAME) $(SRC)
 
 clean:
-	rm -rf $(OBJS)
+	rm -rf 
 
 fclean:
 	rm -rf $(NAME)

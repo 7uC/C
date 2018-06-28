@@ -1,18 +1,15 @@
 NAME = itoa_atoi
 
-SRC =	src/main.c	\
-	src/itoa.c	\
-	src/atoi.c	\
-	src/printstr.c		
+CC = gcc
 
-CFLAGS = -I ./lib/ -Wall -Werror -Wextra
+SRC =	src/*.c	
 
-OBJS = $(SRC:.c=.o)
+CFLAGS = -I ./lib/ -g -Wall -Werror -Wextra
 
 all: $(NAME)
 
-$(NAME):	$(OBJS)
-			gcc -o $(NAME) $(OBJS) $(CFLAGS)
+$(NAME):	$(SRC)
+			$(CC) $(CFLAGS) -o $(NAME) $(SRC)
 
 clean:
 	rm -rf $(OBJS)

@@ -1,19 +1,15 @@
-NAME = rot13str
+NAME = rot13
 
-SRC =	src/main.c	\
-	src/rot13str.c	\
-	src/str_len.c	\
-	src/printstr.c	
-LIB =	lib/rot13str.h	\
+CC = gcc
 
-CFLAGS = -I ./lib/ -Wall -Werror -Wextra
+SRC =	src/*.c	
 
-OBJS = $(SRC:.c=.o)
+CFLAGS = -I ./lib/ -g -Wall -Werror -Wextra
 
 all: $(NAME)
 
-$(NAME):	$(OBJS)
-			gcc -o $(NAME) $(OBJS) $(CFLAGS)
+$(NAME):	$(SRC)
+			$(CC) $(CFLAGS) -o $(NAME) $(SRC)
 
 clean:
 	rm -rf $(OBJS)
