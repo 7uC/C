@@ -8,5 +8,6 @@ char	*strcopy(char *dest, char *src)
 		dest++;
 		src++;
 	}
+	*dest = '\0';
 	return (dest_p);
 }
