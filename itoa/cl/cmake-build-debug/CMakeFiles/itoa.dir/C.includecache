@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/l/Projects/42/itoa/itoa.c
+itoa.h
+/home/l/Projects/42/itoa/itoa.h
+
+/home/l/Projects/42/itoa/itoa.h
+stdlib.h
+-
+
+/home/l/Projects/42/itoa/main.c
+itoa.h
+/home/l/Projects/42/itoa/itoa.h
+
+/home/l/Projects/42/itoa/printstr.c
+unistd.h
+-
+
