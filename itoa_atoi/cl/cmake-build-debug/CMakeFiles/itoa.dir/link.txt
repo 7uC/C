@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/itoa.dir/itoa.c.o CMakeFiles/itoa.dir/main.c.o CMakeFiles/itoa.dir/printstr.c.o  -o itoa 
