@@ -4,9 +4,9 @@ char	*strcopy(char *dest, char *src)
 	dest_p = dest;
 	while (*src)
 	{
-		*dest = *src
+		*dest = *src;
 		dest++;
 		src++;
 	}
-	return (*dest_p);
+	return (dest_p);
 }
